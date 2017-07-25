@@ -59,6 +59,11 @@ An object is a data type which stores data and information on how to process tha
 	echo "<div>$carVW->model</div>";
 	echo "<div>$carVW->speed</div>";
 
+	$carRav4 = (object)[
+		'model' => 'Rav4',
+        'speed' => 197,
+	];
+	echo "<div>Model $carRav4->model speed $carRav4->speed</div>";
 	?>
 
 </div>
