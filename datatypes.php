@@ -76,3 +76,18 @@ An object is a data type which stores data and information on how to process tha
 	?>
 
 </div>
+
+<h2>PHP NULL Value</h2>
+Null is a special data type which can have only one value: NULL.
+A variable of data type NULL is a variable that has no value assigned to it.
+Tip: If a variable is created without a value, it is automatically assigned a value of NULL.
+Variables can also be emptied by setting the value to NULL:
+<div>
+    Example
+	<?php
+	$x = "Hello world!";
+	$x = null;
+	var_dump($x);
+	echo $x;
+	?>
+</div>
