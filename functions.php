@@ -56,3 +56,19 @@ function familyName2($fname, $year) {
 familyName2("Hege", "1975");
 familyName2("Stale", "1978");
 familyName2("Kai Jim", "1983");
+?>
+<h2>PHP Default Argument Value</h2>
+The following example shows how to use a default parameter. If we call the function setHeight() without arguments it takes the default value as argument:
+
+<div>Example</div>
+<?php
+function setHeight($minheight = 50) {
+	echo "The height is : $minheight <br>";
+}
+
+setHeight(350);
+setHeight(); // will use the default value of 50
+setHeight(135);
+setHeight(80);
+?>
+
