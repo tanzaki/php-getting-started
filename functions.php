@@ -85,3 +85,27 @@ echo "5 + 10 = " . sum(5, 10) . "<br>";
 echo "7 + 13 = " . sum(7, 13) . "<br>";
 echo "2 + 4 = " . sum(2, 4);
 ?>
+<h2>Variable function</h2>
+<?php
+function foo() {
+	echo "In foo()<br />\n";
+}
+function bar($arg = '')
+{
+	echo "In bar(); argument was '$arg'.<br />\n";
+}
+// This is a wrapper function around echo
+function echoit($string)
+{
+	echo $string;
+}
+$func = 'foo';
+$func();        // This calls foo()
+
+$func = 'bar';
+$func('test');  // This calls bar()
+
+$func = 'echoit';
+$func('test');  // This calls echoit()
+?>
+
