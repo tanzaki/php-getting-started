@@ -45,3 +45,32 @@ An array can hold many values under a single name, and you can access the values
 	echo "I like " . $cars[0] . ", " . $cars[1] . " and " . $cars[2] . ".";
 	?>
 </div>
+<div>
+    <h2>PHP Associative Arrays</h2>
+    Associative arrays are arrays that use named keys that you assign to them.
+
+    There are two ways to create an associative array:
+
+    <pre>
+        $age = array(
+            "Peter" =>"35",
+            "Ben"   =>"37",
+            "Joe"   =>"43"
+        );
+    </pre>
+    or:
+<pre>
+        $age['Peter'] = "35";
+        $age['Ben'] = "37";
+        $age['Joe'] = "43";
+</pre>
+    The named keys can then be used in a script:
+<div>
+
+    Example
+	<?php
+	$age = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
+	echo "Peter is " . $age['Peter'] . " years old.";
+	?>
+</div>
+</div>
