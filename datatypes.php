@@ -43,6 +43,10 @@ In the following example $cars is an array. The PHP var_dump() function returns 
     Example
 	<?php
 	$cars = array("Volvo","BMW","Toyota");
+	//instead for
+    $car_1 = 'Volvo';
+    $car_2 = 'BMW';
+    $car_3 = 'Toyota';
 	var_dump($cars);
 	?>
 </pre>
@@ -64,6 +68,11 @@ An object is a data type which stores data and information on how to process tha
         'speed' => 197,
 	];
 	echo "<div>Model $carRav4->model speed $carRav4->speed</div>";
+	//instead for
+    $carVM_model = 'VM';
+    $carVM_speed = 114;
+    $carRav4_model = 'Rav4';
+    $carRav4_speed = 197;
 	?>
 
 </div>
