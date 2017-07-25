@@ -33,4 +33,17 @@ A function will be executed by a call to the function.
 	writeMsg(); // call the function
 	?>
 </div>
-
+<h2>PHP Function Arguments</h2>
+Information can be passed to functions through arguments. An argument is just like a variable.
+The following example has a function with one argument ($fname). When the familyName() function is called, we also pass along a name (e.g. Jani), and the name is used inside the function, which outputs several different first names, but an equal last name:
+<div>Example</div>
+<?php
+function familyName($fname) {
+	echo "$fname Refsnes.<br>";
+}
+familyName("Jani");
+familyName("Hege");
+familyName("Stale");
+familyName("Kai Jim");
+familyName("Borge");
+?>
