@@ -108,4 +108,15 @@ $func('test');  // This calls bar()
 $func = 'echoit';
 $func('test');  // This calls echoit()
 ?>
+<h2>Anonymous function</h2>
+<div>
+	<?php
+	$greet = function($name)
+	{
+		echo "Hello $name<br>";
+	};
+	$greet('World');
+	$greet('PHP');
+	?>
+</div>
 
