@@ -10,3 +10,12 @@ The example below replaces the text "world" with "Dolly":
 	echo str_replace("world", "Dolly", "Hello world!"); // outputs Hello Dolly!
 	?>
 </div>
+<h2>PHP User Defined Functions</h2>
+Besides the built-in PHP functions, we can create our own functions.
+
+A function is a block of statements that can be used repeatedly in a program.
+
+A function will not execute immediately when a page loads.
+
+A function will be executed by a call to the function.
+
