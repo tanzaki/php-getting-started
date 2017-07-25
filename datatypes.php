@@ -29,3 +29,8 @@ A string can be any text inside quotes. You can use single or double quotes:
 	echo $y;
 	?>
 </div>
+<h2>PHP Boolean</h2>
+A Boolean represents two possible states: TRUE or FALSE.
+
+$x = true;
+$y = false;
