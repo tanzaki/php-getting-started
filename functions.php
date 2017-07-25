@@ -72,3 +72,16 @@ setHeight(135);
 setHeight(80);
 ?>
 
+<h2>PHP Functions - Returning values</h2>
+To let a function return a value, use the return statement:
+<div>Example</div>
+<?php
+function sum($x, $y) {
+	$z = $x + $y;
+	return $z;
+}
+
+echo "5 + 10 = " . sum(5, 10) . "<br>";
+echo "7 + 13 = " . sum(7, 13) . "<br>";
+echo "2 + 4 = " . sum(2, 4);
+?>
