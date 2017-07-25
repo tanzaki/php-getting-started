@@ -34,3 +34,15 @@ A Boolean represents two possible states: TRUE or FALSE.
 
 $x = true;
 $y = false;
+<div>PHP Array</div>
+An array stores multiple values in one single variable.
+
+In the following example $cars is an array. The PHP var_dump() function returns the data type and value:
+
+<pre>
+    Example
+	<?php
+	$cars = array("Volvo","BMW","Toyota");
+	var_dump($cars);
+	?>
+</pre>
