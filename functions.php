@@ -18,4 +18,19 @@ A function is a block of statements that can be used repeatedly in a program.
 A function will not execute immediately when a page loads.
 
 A function will be executed by a call to the function.
+<h2>Create a User Defined Function in PHP</h2>
+<pre>
+    function functionName() {
+        code to be executed;
+    }
+</pre>
+<div>
+    Example
+	<?php
+	function writeMsg() {
+		echo "Hello world!";
+	}
+	writeMsg(); // call the function
+	?>
+</div>
 
