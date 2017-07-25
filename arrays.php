@@ -74,3 +74,17 @@ An array can hold many values under a single name, and you can access the values
 	?>
 </div>
 </div>
+<h2>Loop Through an Associative Array</h2>
+To loop through and print all the values of an associative array, you could use a foreach loop, like this:
+Example
+<div>
+	<?php
+	$age = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
+
+	foreach($age as $x => $x_value) {
+		echo "Key=" . $x . ", Value=" . $x_value;
+		echo "<br>";
+	}
+	?>
+</div>
+
