@@ -47,3 +47,12 @@ familyName("Stale");
 familyName("Kai Jim");
 familyName("Borge");
 ?>
+The following example has a function with two arguments ($fname and $year):
+<div>Example</div>
+<?php
+function familyName2($fname, $year) {
+	echo "$fname Refsnes. Born in $year <br>";
+}
+familyName2("Hege", "1975");
+familyName2("Stale", "1978");
+familyName2("Kai Jim", "1983");
