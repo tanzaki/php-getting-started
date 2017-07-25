@@ -46,3 +46,19 @@ In the following example $cars is an array. The PHP var_dump() function returns 
 	var_dump($cars);
 	?>
 </pre>
+<h2>PHP Object</h2>
+An object is a data type which stores data and information on how to process that data.
+
+<div>
+    Example
+	<?php
+	$carVW = (object)[
+		'model' => 'VW',
+        'speed' => 114,
+	];
+	echo "<div>$carVW->model</div>";
+	echo "<div>$carVW->speed</div>";
+
+	?>
+
+</div>
